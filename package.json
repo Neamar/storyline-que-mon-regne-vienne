@@ -4,7 +4,8 @@
   "description": "A storyline adventure",
   "main": "./story.json",
   "scripts": {
-    "compile": "storylines ."
+    "compile": "storylines .",
+    "compile-local": "storylines . > node_modules/storylines/frontend/qmrv.json"
   },
   "repository": {
     "type": "git",
@@ -16,8 +17,7 @@
     "url": "https://github.com/Neama/story-que-mon-regne-vienne/issues"
   },
   "homepage": "https://github.com/Neamar/story-que-mon-regne-vienne#readme",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "storylines": "^1.1.0"
   }
