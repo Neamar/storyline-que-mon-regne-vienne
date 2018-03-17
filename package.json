@@ -1,0 +1,24 @@
+{
+  "name": "story-que-mon-regne-vienne",
+  "version": "1.0.0",
+  "description": "A storyline adventure",
+  "main": "./story.json",
+  "scripts": {
+    "compile": "storylines ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neamar/story-que-mon-regne-vienne.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Neama/story-que-mon-regne-vienne/issues"
+  },
+  "homepage": "https://github.com/Neamar/story-que-mon-regne-vienne#readme",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "storylines": "^1.1.0"
+  }
+}

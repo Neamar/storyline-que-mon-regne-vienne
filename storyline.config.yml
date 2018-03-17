@@ -1,0 +1,39 @@
+---
+version: 1
+story_title: "Le Purple Curtain"
+resources:
+    "name":
+        description: "Le nom de votre personnage"
+        format: "%s"
+        display_name: "Nom"
+        default: "Inconnu"
+    "constitution":
+        description: "L'état physique de votre personnage"
+        format: "%s"
+        display_name: "Const"
+        default: 0
+    "charisma":
+        description: "La présence de votre personnage"
+        format: "%s"
+        display_name: "Char"
+        default: 0
+    "hacking":
+        description: "La capacité de votre personnage en hacking"
+        format: "%s"
+        display_name: "Hack"
+        default: 0
+    "magic":
+        description: "La capacité de votre personnage en magie"
+        format: "%s"
+        display_name: "Mag"
+        default: 0
+    "nuyens":
+        description: "L'argent de votre personnage"
+        format: "%s¥"
+        display_name: "Arg"
+        default: 0
+---
+
+La magie a fait son retour sur la Terre. Avec elle, des espèces mutantes sont également réapparues. Elfes, nains, orks ou trolls ne sont plus des personnages de contes de fées. Loin d'être en reste, la technologie a fait des bonds, et la limite entre l'humain et la machine est de plus en plus floue. Tout le monde a de nos jours un petit implant temporal permettant une bien meilleur interface avec tous les systèmes électroniques. Des entreprises toujours plus influentes contrôlent aujourd'hui le monde en lieu et place des nations, et si les règles et les lois s'en sont trouvées renforcées à tous les endroits que ces méga-corporations contrôlent, le contraste avec les zones d'ombres de ce système n'en est que plus marqué. C'est ainsi que vous avez décidé de vivre: en marge d'un système faisant office de norme, mais que d'autres époques auraient plus que probablement qualifié d'orwellien. Vous êtes membre d'une équipe d'individus aux talents divers. Que votre aptitude concerne la négociation, le hacking ou la magie, vous mettez vos compétences au service de gens qui ont un besoin urgent, et préfèrent que cela reste discret. 
+
+La clandestinité est votre domaine, le danger votre quotidien, et les scrupules souvent un luxe en dehors de vos moyens.
