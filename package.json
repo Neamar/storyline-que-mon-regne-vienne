@@ -5,7 +5,7 @@
   "main": "./story.json",
   "scripts": {
     "compile": "storylines .",
-    "compile-local": "storylines . > node_modules/storylines/frontend/qmrv.json"
+    "compile-local": "storylines . > node_modules/storylines/frontend/story-wip.json"
   },
   "repository": {
     "type": "git",

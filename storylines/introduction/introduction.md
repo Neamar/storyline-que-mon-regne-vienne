@@ -6,7 +6,7 @@ triggers:
         weight: 1 
 actions:
     "Donner l'ordre aux troupes de se préparer pour un départ à l'aube":
-        noop
+        operations: []
 
 ---
 
