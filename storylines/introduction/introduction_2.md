@@ -3,6 +3,8 @@ triggers:
     hard:
         condition:
             sl.intro_event == 2
+on_display:
+    - r.happiness += 10
 actions:
     "En route !":
         operations:
