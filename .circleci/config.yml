@@ -22,5 +22,9 @@ jobs:
           paths:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
-        
+
       - run: npm run compile
+      - run: npm run chart
+      - store_artifacts:
+          path: /tmp/data.dot
+          destination: data.dot

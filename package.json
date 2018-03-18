@@ -5,6 +5,7 @@
   "main": "./story.json",
   "scripts": {
     "compile": "storylines .",
+    "chart": "storylines . /tmp/story.json && storylines-chart  /tmp/story.json /tmp/data.json /tmp/data.dot",
     "compile-local": "storylines . > node_modules/storylines/frontend/story-wip.json",
     "local": "npm run run-local & npm run watch-local",
     "watch-local": "nodemon -e js,md node_modules/.bin/storylines . node_modules/storylines/frontend/story-wip.json",
@@ -23,6 +24,6 @@
   "dependencies": {},
   "devDependencies": {
     "nodemon": "^1.17.2",
-    "storylines": "^1.3.0"
+    "storylines": "^1.3.1"
   }
 }
