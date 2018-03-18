@@ -6,9 +6,9 @@
   "scripts": {
     "compile": "storylines .",
     "compile-local": "storylines . > node_modules/storylines/frontend/story-wip.json",
-    "local": "npm run watch-local & npm run run-local",
+    "local": "npm run run-local & npm run watch-local",
     "watch-local": "nodemon -e js,md node_modules/.bin/storylines . node_modules/storylines/frontend/story-wip.json",
-    "run-local": "nodemon node_modules/storylines/frontend"
+    "run-local": "nodemon node_modules/storylines/frontend.js"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,7 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Neama/story-que-mon-regne-vienne/issues"
+    "url": "https://github.com/Neamar/story-que-mon-regne-vienne/issues"
   },
   "homepage": "https://github.com/Neamar/story-que-mon-regne-vienne#readme",
   "dependencies": {},
