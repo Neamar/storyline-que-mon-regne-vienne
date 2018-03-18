@@ -19,6 +19,6 @@
   "homepage": "https://github.com/Neamar/story-que-mon-regne-vienne#readme",
   "dependencies": {},
   "devDependencies": {
-    "storylines": "^1.1.0"
+    "storylines": "^1.2.0"
   }
 }
