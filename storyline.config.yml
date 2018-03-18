@@ -1,6 +1,7 @@
 ---
 version: 1
 story_title: "Que mon règne vienne"
+locale: 'fr_FR'
 resources:
     "gold":
         description: "Argent dans les coffres"
