@@ -24,7 +24,7 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
 
       - run: mkdir /tmp/story
-      - run: apt install graphviz
+      - run: sudo apt install graphviz
       - run: npm run compile -- /tmp/story/story.json
       - run: npm run chart -- /tmp/story/story.json /tmp/story/chart.json /tmp/story/chart.dot
       - run: dot -Tsvg -o /tmp/story/chart.svg /tmp/story/chart.dot
