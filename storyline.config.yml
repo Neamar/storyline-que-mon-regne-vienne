@@ -12,7 +12,7 @@ resources:
         description: "La population de votre campement"
         format: "%s"
         display_name: "Population"
-        default: 10
+        default: 20
     "happiness":
         description: "Le bonheur de votre population"
         format: "%s"

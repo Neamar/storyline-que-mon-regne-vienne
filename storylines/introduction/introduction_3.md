@@ -20,4 +20,4 @@ actions:
 
 Tandis que votre poignée d'hommes investit la clairière, vous jetez un œil derrière la falaise qui protège le plateau. Des hectares de forêt devant vous, un territoire encore inconnu des hommes... du moins, c'est ce que vous pensiez, jusqu'à ce qu'au loin vous notiez ce qui semble être une fine colonne de fumée. Se pourrait-il que d'autres personnes aient déjà poussé l'exploration ?
 
-Vous êtes tirés de vos rêveries par Éric, votre intendant. **Il souhaite savoir quelle doit être votre priorité pour la journée**.
+Vous êtes tiré de vos rêveries par Éric, votre intendant. **Il souhaite savoir quelle doit être votre priorité pour la journée**.
