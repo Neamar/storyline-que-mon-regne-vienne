@@ -23,8 +23,11 @@ jobs:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
 
-      - run: npm run compile
-      - run: npm run chart
+      - run: mkdir /tmp/story
+      - run: apt install graphviz
+      - run: npm run compile -- /tmp/story/story.json
+      - run: npm run chart -- /tmp/story/story.json /tmp/story/chart.json /tmp/story/chart.dot
+      - run: dot -Tsvg -o /tmp/story/chart.svg /tmp/story/chart.dot
       - store_artifacts:
-          path: /tmp/data.dot
-          destination: data.dot
+          path: /tmp/story
+          destination: story
