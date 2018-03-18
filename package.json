@@ -5,7 +5,10 @@
   "main": "./story.json",
   "scripts": {
     "compile": "storylines .",
-    "compile-local": "storylines . > node_modules/storylines/frontend/story-wip.json"
+    "compile-local": "storylines . > node_modules/storylines/frontend/story-wip.json",
+    "local": "npm run watch-local & npm run run-local",
+    "watch-local": "nodemon -e js,md node_modules/.bin/storylines . node_modules/storylines/frontend/story-wip.json",
+    "run-local": "nodemon node_modules/storylines/frontend"
   },
   "repository": {
     "type": "git",
@@ -19,6 +22,7 @@
   "homepage": "https://github.com/Neamar/story-que-mon-regne-vienne#readme",
   "dependencies": {},
   "devDependencies": {
+    "nodemon": "^1.17.2",
     "storylines": "^1.2.0"
   }
 }
