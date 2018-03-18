@@ -19,6 +19,6 @@ actions:
 
 L'ordre à peine donné, Olrik est déjà en train d'organiser les roulements, comme si il avait déjà tout prévu depuis longtemps et n'attendait que votre ordre pour commencer.
 
-> « Trois équipes ! La première, creusez un large fossé sur le périmètre du camp, utilisez la terre déblayée pour faire un monticule central sur lequel nous pourrons mettre en place une vigie ! La seconde, allez couper du bois pour construire une palissade ! La troisième, trouvez du chanvre ou de l'osier pour créer du cordage, et récupérer les déchets de la seconde équipe pour préparer des réserves pour le feu ! On s'active ! »
+> « Trois équipes ! La première, creusez un large fossé sur le périmètre du camp, utilisez la terre déblayée pour faire un monticule central sur lequel nous pourrons mettre en place une vigie ! La seconde, allez couper du bois pour construire une palissade ! La troisième, trouvez du chanvre ou de l'osier pour créer du cordage, et récupérez le petit bois de la seconde équipe pour préparer des réserves pour le feu ! On s'active ! »
 
-Vous souriez dans votre for intérieur -- votre lieutenant a toujours été un homem d'actions capable de prendre des décisions rapides, et vous êtes fier de pouvoir compter sur lui !
+Vous souriez dans votre for intérieur -- votre lieutenant a toujours été un homme d'actions capable de prendre des décisions rapides, et vous êtes fier de pouvoir compter sur lui !
