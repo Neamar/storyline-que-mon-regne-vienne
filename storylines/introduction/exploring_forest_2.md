@@ -6,7 +6,7 @@ triggers:
 actions:
     "Dormir":
         operations:
-            - sl.intro_event == 4
+            - sl.intro_event += 1
 ---
 
 Après plusieurs centaines de mètres, vous reconnaîssez enfin un énorme chêne que vous aviez noté à l'aller. Rassuré, vous reprenez votre route, et arrivez au campement de base alors que la nuit commence à tomber.
