@@ -3,9 +3,12 @@ triggers:
     hard:
         condition:
             sl.intro_event == 5
+on_display:
+    - r.food -= 5
 actions:
     "Commencer à jouer.":
-        operations: []
+        operations:
+            - g.tutorial_finished = true
 ---
 
 Tandis que l'aube se lève une nouvelle fois sur votre campement maintenant bien installé, un sourire apparaît sur vos lèvres.

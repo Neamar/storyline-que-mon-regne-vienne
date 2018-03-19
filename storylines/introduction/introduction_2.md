@@ -5,6 +5,7 @@ triggers:
             sl.intro_event == 2
 on_display:
     - r.happiness += 10
+    - r.food -= 5
 actions:
     "En route !":
         operations:

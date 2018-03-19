@@ -3,6 +3,8 @@ triggers:
     hard:
         condition:
             sl.intro_event == 4
+on_display:
+    - r.food -= 5
 actions:
     "Prévenons l'Empereur que nous sommes installés.":
         operations:

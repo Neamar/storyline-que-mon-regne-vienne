@@ -13,6 +13,11 @@ resources:
         format: "%s"
         display_name: "Population"
         default: 20
+    "food":
+        description: "Nourriture (idéalement, supérieure à la population)"
+        format: "%s"
+        display_name: "Nourriture"
+        default: 40
     "happiness":
         description: "Le bonheur de votre population"
         format: "%s"

@@ -7,7 +7,7 @@ actions:
     "Remettons d'aplomb ce monument historique.":
         operations:
             - sl.raise_praying_stone = true
-    "Détruisez ce symbole hérétique.":
+    "Détruisons ce symbole hérétique.":
         operations:
             - sl.destroy_praying_stone = true
 ---
