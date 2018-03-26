@@ -2,20 +2,21 @@
 triggers:
     soft:
         condition:
-            sl.do_nothing == true
-            g.current_turn >= sl.do_nothing_turn
+            AND:
+                - sl.do_nothing == true
+                - g.current_turn >= sl.do_nothing_turn
 on_display:
     - r.population -= 1
     - r.happiness -= 5
 actions:
     "Tu as bien fait. Je n'aurais pas dû laisser le départ d'Olafùr impuni":
         operations: []
-    "Ici, c'est moi qui donne les ordres. Ne reprends jamais ce genre de décisions sans m'en parler avant"
+    "Ici, c'est moi qui donne les ordres. Ne reprends jamais ce genre de décisions sans m'en parler avant":
         operations:
-            sl.olrik_pissed = true
-    "(sortir votre épée et l'abattre)"
+            - sl.olrik_pissed = true
+    "(sortir votre épée et l'abattre)":
         operations:
-            sl.olrik_fight = true
+            - sl.olrik_fight = true
 ---
 
 Revenant d'une inspection du camp, vous voyez Olrik couvert de sang. Il a devant lui le corps d'un de vos guerriers. Il hurle à l'intention de tous les guerriers :

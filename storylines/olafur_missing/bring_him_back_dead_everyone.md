@@ -2,7 +2,7 @@
 triggers:
     soft:
         condition:
-            sl.body_in_front_of_camp = true
+            sl.body_in_front_of_camp == true
 actions:
     "Les remercier, et enterrer la tête vous-même":
         operations:

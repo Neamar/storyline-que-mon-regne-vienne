@@ -2,7 +2,7 @@
 triggers:
     soft:
         condition:
-            sl.bring_body_in_tent = true
+            sl.bring_body_in_tent == true
 on_display:
     - r.population -= 1
 actions:
