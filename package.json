@@ -25,6 +25,6 @@
   "dependencies": {},
   "devDependencies": {
     "nodemon": "^1.17.2",
-    "storylines": "^1.3.1"
+    "storylines": "^1.3.3"
   }
 }
