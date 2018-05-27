@@ -24,6 +24,6 @@
   },
   "devDependencies": {
     "nodemon": "^1.17.2",
-    "storylines": "^2.0.1"
+    "storylines": "^2.0.2"
   }
 }
