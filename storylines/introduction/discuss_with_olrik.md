@@ -6,7 +6,7 @@ triggers:
 actions:
     "Rester avec les hommes pour la veillée au coin du feu":
         operations:
-            - sl.intro_event += 1
+            - sl.evening_gathering_with_mens = true
     "S'absenter dans la tente pour aller dormir, demain sera une grosse journée":
         operations:
             - sl.intro_event += 1
