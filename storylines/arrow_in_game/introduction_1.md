@@ -5,6 +5,7 @@ triggers:
             g.tutorial_finished == true
 on_display:
     - r.food += 2
+    - sl.arrow_in_game = true
 actions:
     "Instaurons des tours de garde obligatoires.":
         operations:

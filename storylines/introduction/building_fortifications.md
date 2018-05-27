@@ -3,10 +3,12 @@ triggers:
     hard:
         condition:
             sl.is_building_fortifications == true
+on_display:
+    - r.happiness += 5
 actions:
     "Aider les hommes et rejoindre la première équipe (creuser)":
         operations:
-            - sl.intro_event += 1
+            - sl.is_helping_build = true
     "Aider les hommes et rejoindre la troisième équipe (discuter en tissant le cordage)":
             operations:
             - sl.is_discussing_with_troops = true
