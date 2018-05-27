@@ -5,6 +5,7 @@ triggers:
             sl.is_building_church == true
 on_display:
     - r.happiness += 10
+    - g.has_church = true
 actions:
     "Espérons-le !":
         operations:

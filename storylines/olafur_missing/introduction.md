@@ -5,7 +5,6 @@ triggers:
             g.tutorial_finished == true
 on_display:
     - r.population -= 1
-    - sl.started_at = g.current_turn
 actions:
     "Lancer des hommes à sa poursuite, avec ordre de le ramener vivant":
         operations:
