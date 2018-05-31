@@ -2,14 +2,17 @@
 triggers:
     soft:
         condition:
-            sl.kill_him == true
+            OR:
+                - sl.kill_him == true
+                - sl.bring_him_alive == true
 actions:
     "Faire signe aux hommes de l'expédition de rentrer sous la tente":
         operations:
-            - sl.bring_body_in_tent = true
+            - sl.discuss_in_tent = true
     "Rester en dehors, visible de tout le campement":
         operations:
-            - sl.body_in_front_of_camp = true
+            - sl.discuss_in_front_of_camp = true
+
 ---
 
 Un léger tumulte dans le camp passe à travers les murs épais de votre tente.

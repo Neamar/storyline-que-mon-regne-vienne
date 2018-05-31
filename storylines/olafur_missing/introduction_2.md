@@ -9,8 +9,7 @@ on_display:
     - r.population -= 1
 actions:
     "Qu'est ce que vous regardez tous ? Retournez au boulot !":
-        operations:
-            - sl.bring_him_alive = true
+        operations: []
 ---
 
 Les hommes disparaissent à l'horizon.
