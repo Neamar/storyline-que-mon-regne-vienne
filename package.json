@@ -19,11 +19,10 @@
     "url": "https://github.com/Neamar/story-que-mon-regne-vienne/issues"
   },
   "homepage": "https://github.com/Neamar/story-que-mon-regne-vienne#readme",
-  "dependencies": {
-    "to-regex": "^3.0.2"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "nodemon": "^1.17.2",
-    "storylines": "^2.1.0"
+    "nodemon": "^1.17.5",
+    "storylines": "^2.1.1",
+    "to-regex": "^3.0.2"
   }
 }
