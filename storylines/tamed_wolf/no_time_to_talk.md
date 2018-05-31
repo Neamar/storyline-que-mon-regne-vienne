@@ -2,7 +2,7 @@
 triggers:
     hard:
         condition:
-            sl.tamed_wolf_in_the_woods == true
+            sl.hasnt_spoken_to_steinar == true
 actions:
     "Continuer":
         operations: []
