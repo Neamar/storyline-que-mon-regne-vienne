@@ -6,6 +6,7 @@
   "scripts": {
     "compile": "storylines compile .",
     "chart": "storylines chart",
+    "update-chart": "storylines compile . /tmp/story.json && storylines chart /tmp/story.json /tmp/data.json /tmp/data.dot && dot -Tsvg -o /tmp/chart.svg /tmp/data.dot",
     "view-chart": "storylines compile . /tmp/story.json && storylines chart /tmp/story.json /tmp/data.json /tmp/data.dot && dot -Tsvg -o /tmp/chart.svg /tmp/data.dot && xdg-open /tmp/chart.svg",
     "local": "storylines local ."
   },
@@ -22,7 +23,7 @@
   "dependencies": {},
   "devDependencies": {
     "nodemon": "^1.17.5",
-    "storylines": "^2.1.1",
+    "storylines": "^2.1.2",
     "to-regex": "^3.0.2"
   }
 }
