@@ -6,7 +6,7 @@ triggers:
 on_display:
     - r.population -= 1
 actions:
-    "(écouter leur récit)":
+    "[Écouter leur récit]":
         operations:
             - sl.listen_to_explanation = true
 ---

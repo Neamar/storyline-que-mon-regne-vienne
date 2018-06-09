@@ -6,13 +6,13 @@ triggers:
 on_display:
     - r.happiness += 5
 actions:
-    "Aider les hommes et rejoindre la première équipe (creuser)":
+    "[Aider les hommes et rejoindre la première équipe (creuser)]":
         operations:
             - sl.is_helping_build = true
-    "Aider les hommes et rejoindre la troisième équipe (discuter en tissant le cordage)":
+    "[Aider les hommes et rejoindre la troisième équipe (discuter en tissant le cordage)]":
             operations:
             - sl.is_discussing_with_troops = true
-    "Aller explorer la forêt avoisinante":
+    "[Aller explorer la forêt avoisinante]":
         operations:
             - sl.exploring_forest = true
         condition:

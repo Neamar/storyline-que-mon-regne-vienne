@@ -4,7 +4,7 @@ triggers:
         condition:
             sl.evening_gathering_with_mens == true
 actions:
-    "Aller dormir":
+    "[Aller dormir]":
         operations:
             - sl.intro_event += 1
 ---

@@ -4,7 +4,7 @@ triggers:
         condition:
             sl.raise_praying_stone == true
 actions:
-    "Envoyer les hommes se coucher":
+    "[Envoyer les hommes se coucher]":
         operations:
             - sl.intro_event += 1
 ---

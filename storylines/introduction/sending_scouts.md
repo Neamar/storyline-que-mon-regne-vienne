@@ -6,12 +6,12 @@ triggers:
 on_display:
     - r.population -= 3
 actions:
-    "Aller explorer la forêt":
+    "[Aller explorer la forêt]":
         operations:
             - sl.exploring_forest = true
         condition:
             sl.exploring_forest != true
-    "Faire le point avec Olrik":
+    "[Faire le point avec Olrik]":
             operations:
             - sl.is_discussing_with_olrik = true
 ---

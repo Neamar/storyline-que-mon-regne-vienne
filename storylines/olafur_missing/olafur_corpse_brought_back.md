@@ -6,10 +6,10 @@ triggers:
                 - sl.kill_him == true
                 - sl.bring_him_alive == true
 actions:
-    "Faire signe aux hommes de l'expédition de rentrer sous la tente":
+    "[Faire signe aux hommes de l'expédition de rentrer sous la tente]":
         operations:
             - sl.discuss_in_tent = true
-    "Rester en dehors, visible de tout le campement":
+    "[Rester en dehors, visible de tout le campement]":
         operations:
             - sl.discuss_in_front_of_camp = true
 

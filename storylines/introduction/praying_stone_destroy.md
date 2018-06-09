@@ -4,7 +4,7 @@ triggers:
         condition:
             sl.destroy_praying_stone == true
 actions:
-    "Aller dormir":
+    "[Aller dormir]":
         operations:
             - sl.intro_event += 1
 ---

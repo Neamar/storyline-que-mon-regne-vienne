@@ -4,10 +4,10 @@ triggers:
         condition:
             sl.exploring_forest == true
 actions:
-    "Suivre le sentier de gauche":
+    "[Suivre le sentier de gauche]":
         operations:
             - sl.exploring_forest_back = true
-    "Suivre le sentier de droite":
+    "[Suivre le sentier de droite]":
         operations:
             - sl.exploring_forest_back = true
 ---

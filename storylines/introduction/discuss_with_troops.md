@@ -6,10 +6,10 @@ triggers:
 on_display:
     - r.happiness += 10
 actions:
-    "Rester avec les hommes pour la veillée au coin du feu bâti par la seconde équipe":
+    "[Rester avec les hommes pour la veillée au coin du feu bâti par la seconde équipe]":
         operations:
             - sl.intro_event += 1
-    "S'absenter dans la tente pour aller dormir, demain sera une grosse journée":
+    "[S'absenter pour aller dormir, demain sera une grosse journée]":
         operations:
             - sl.intro_event += 1
 ---

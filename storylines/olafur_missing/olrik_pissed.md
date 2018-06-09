@@ -4,7 +4,7 @@ triggers:
         condition:
             sl.olrik_pissed == true
 actions:
-    "Continuer":
+    "[Continuer]":
         operations: []
 ---
 

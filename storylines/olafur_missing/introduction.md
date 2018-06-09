@@ -6,14 +6,14 @@ triggers:
 on_display:
     - r.population -= 1
 actions:
-    "Lancer des hommes à sa poursuite, avec ordre de le ramener vivant":
+    "Vous là bas ! Allez me chercher Olafùr, et ramenez-le moi vivant !":
         operations:
             - sl.bring_him_alive = true
-    "Lancer des hommes à sa poursuite, avec ordre d'abattre le déserteur":
+    "Vous là bas ! Allez abattre Olafùr, et ramenez son corps !":
         operations:
             - r.happiness -= 5
             - sl.kill_him = true
-    "Ne rien faire":
+    "[Ne rien faire]":
         operations:
             - r.happiness -= 5
             - sl.do_nothing = true

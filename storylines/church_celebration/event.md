@@ -8,7 +8,7 @@ triggers:
 on_display:
     - r.happiness += 10
 actions:
-    "Continuer":
+    "[Continuer]":
         operations: []
 ---
 

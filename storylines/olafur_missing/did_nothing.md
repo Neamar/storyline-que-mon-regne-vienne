@@ -14,7 +14,7 @@ actions:
     "Ici, c'est moi qui donne les ordres. Ne reprends jamais ce genre de décisions sans m'en parler avant":
         operations:
             - sl.olrik_pissed = true
-    "(sortir votre épée et l'abattre)":
+    "[sortir votre épée et l'abattre]":
         operations:
             - sl.olrik_fight = true
 ---

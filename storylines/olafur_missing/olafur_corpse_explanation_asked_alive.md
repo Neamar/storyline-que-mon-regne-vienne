@@ -6,10 +6,10 @@ triggers:
                 - sl.bring_him_alive == true
                 - sl.listen_to_explanation == true
 actions:
-    "Les remercier, et enterrer la tête vous-même":
+    "[Les remercier, et enterrer la tête vous-même]":
         operations:
             - r.happiness += 2
-    "Les remercier, et placer la tête bien en vue dans le campement à titre d'exemple":
+    "[Les remercier, et placer la tête bien en vue dans le campement à titre d'exemple]":
         operations:
             - r.happiness -= 1
 ---

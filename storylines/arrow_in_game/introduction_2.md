@@ -4,7 +4,7 @@ triggers:
         condition:
             sl.arrow_in_game == true
 actions:
-    "Continuer":
+    "[Continuer]":
         operations: []
 
 ---

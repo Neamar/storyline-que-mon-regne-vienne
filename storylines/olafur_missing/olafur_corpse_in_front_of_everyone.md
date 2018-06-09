@@ -4,7 +4,7 @@ triggers:
         condition:
             sl.discuss_in_front_of_camp == true
 actions:
-    "(écouter leur récit)":
+    "[Écouter leur récit]":
         operations:
             - sl.listen_to_explanation = true
 ---

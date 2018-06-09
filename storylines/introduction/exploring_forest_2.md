@@ -4,7 +4,7 @@ triggers:
         condition:
             sl.exploring_forest_back == true
 actions:
-    "Dormir":
+    "[Aller dormir]":
         operations:
             - sl.intro_event += 1
 ---

@@ -6,7 +6,7 @@ triggers:
 on_display:
     - r.food -= 5
 actions:
-    "Commencer à jouer.":
+    "[Commencer à jouer]":
         operations:
             - g.tutorial_finished = true
 ---

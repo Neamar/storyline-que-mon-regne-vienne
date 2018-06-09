@@ -6,12 +6,12 @@ triggers:
 on_display:
     - r.population -= 1
 actions:
-    "Aller explorer la forêt":
+    "[Aller explorer la forêt]":
         operations:
             - sl.exploring_forest = true
         condition:
             sl.exploring_forest != true
-    "Retourner au campement":
+    "[Retourner au campement]":
         operations:
             - sl.praying_stone = true
 ---

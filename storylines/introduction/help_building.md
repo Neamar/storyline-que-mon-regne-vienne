@@ -4,7 +4,7 @@ triggers:
         condition:
             sl.is_helping_build == true
 actions:
-    "Aller dormir":
+    "[Aller dormir]":
         operations:
             - sl.intro_event += 1
 ---

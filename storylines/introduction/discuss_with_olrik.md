@@ -4,10 +4,10 @@ triggers:
         condition:
             sl.is_discussing_with_olrik == true
 actions:
-    "Rester avec les hommes pour la veillée au coin du feu":
+    "[Rester avec les hommes pour la veillée au coin du feu]":
         operations:
             - sl.evening_gathering_with_mens = true
-    "S'absenter dans la tente pour aller dormir, demain sera une grosse journée":
+    "[S'absenter pour aller dormir, demain sera une grosse journée]":
         operations:
             - sl.intro_event += 1
 ---

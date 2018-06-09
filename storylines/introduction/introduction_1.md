@@ -4,7 +4,7 @@ triggers:
         condition:
             global.current_turn == 1
 actions:
-    "Donner l'ordre aux troupes de se préparer pour un départ à l'aube":
+    "[Donner l'ordre aux troupes de se préparer pour un départ à l'aube]":
         operations: 
             - sl.intro_event = 2
 
