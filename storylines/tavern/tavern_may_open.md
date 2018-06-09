@@ -10,7 +10,7 @@ actions:
     "Tu as raison, j'ai eu tort. La taverne n'ouvrira pas.":
         operations:
             - sl.tavern_was_not_approved = true
-            - g.happiness -= 3
+            - r.happiness -= 3
 ---
 
 Vikar, le chapelain, vous rejoint tandis que vous traversez le camp pour aller aux latrines.
