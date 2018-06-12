@@ -23,7 +23,7 @@
   "dependencies": {},
   "devDependencies": {
     "nodemon": "^1.17.5",
-    "storylines": "^2.1.3",
+    "storylines": "^2.1.4",
     "to-regex": "^3.0.2"
   }
 }
