@@ -9,6 +9,7 @@ actions:
     "[Commencer à jouer]":
         operations:
             - g.tutorial_finished = true
+            - g.tutorial_finished_at_turn = g.current_turn
 ---
 
 Tandis que l'aube se lève une nouvelle fois sur votre campement maintenant bien installé, un sourire apparaît sur vos lèvres.

@@ -10,10 +10,14 @@ on_display:
     - r.happiness -= 5
 actions:
     "Tu as bien fait. Je n'aurais pas dû laisser le départ d'Olafùr impuni":
-        operations: []
+        operations:
+            - g.olrik_meter ||= 0
+            - g.olrik_meter += 1
     "Ici, c'est moi qui donne les ordres. Ne reprends jamais ce genre de décisions sans m'en parler avant":
         operations:
             - sl.olrik_pissed = true
+            - g.olrik_meter ||= 0
+            - g.olrik_meter -= 2
     "[sortir votre épée et l'abattre]":
         operations:
             - sl.olrik_fight = true
