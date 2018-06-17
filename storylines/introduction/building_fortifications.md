@@ -5,6 +5,7 @@ triggers:
             sl.is_building_fortifications == true
 on_display:
     - r.happiness += 5
+    - g.has_fortifications = true
 actions:
     "[Aider les hommes et rejoindre la première équipe (creuser)]":
         operations:

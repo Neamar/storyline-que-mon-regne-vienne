@@ -7,7 +7,8 @@ triggers:
                     - sl.debrief == true
 actions:
     "Très bien ! Mes ordres ne changent pas. Tous les autres, retournez au boulot !":
-        operations: []
+        operations:
+            - sl.has_debriefed = true
 ---
 
 L'homme se lève et commence à parler rapidement.

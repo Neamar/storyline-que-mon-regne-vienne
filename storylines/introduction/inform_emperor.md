@@ -5,6 +5,7 @@ triggers:
             sl.has_informed_emperor == true
 on_display:
     - r.population -= 1
+    - g.has_informed_emperor = true
 actions:
     "[Aller explorer la forêt]":
         operations:

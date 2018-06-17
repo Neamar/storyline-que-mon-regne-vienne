@@ -7,7 +7,8 @@ triggers:
                     - sl.debrief == true
 actions:
     "Je ne pense pas que nous la reverrons de si tôt.":
-        operations: []
+        operations:
+            - sl.has_debriefed = true
 ---
 
 L'homme se lève et commence à parler rapidement.

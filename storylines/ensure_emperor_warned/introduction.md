@@ -2,7 +2,7 @@
 triggers:
     soft:
         condition:
-                storylines.introduction.has_informed_emperor != true
+                g.has_informed_emperor != true
                 # TODO: ensure this is only called at least a certain amount of turn after the introduction
         weight: 10
 on_display:
