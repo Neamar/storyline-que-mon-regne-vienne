@@ -2,16 +2,25 @@
 triggers:
     soft:
         condition:
-            storylines.arrow_in_game.arrow_in_game == true
+            g.tutorial_finished == true
+on_display:
+    - r.food += 2
+    - sl.introduction_step = 2
 actions:
-    "Tirez à vue, pour tuer.":
+    "Instaurons des tours de garde obligatoires.":
         operations:
-            - sl.try_to_kill = true
-    "Invitez-le dans le camp, puis amenez-le dans ma tente, nous discuterons":
+            - r.happiness -= 10
+    "Je suis sûr que ce n'est rien.":
+        operations: []
+    "À partir de maintenant, doublons toutes les équipes de chasseurs par sécurité":
         operations:
-            - sl.try_to_bring = true
+            - r.food -= 10
 ---
 
-Olrik, votre lieutenant, s'adresse à vous pendant son débriefing matinal :
+C'est Éric qui vient vous trouver. Il tient dans sa main une flèche grossière.
 
-> « Messire ! Durant la nuit, l'un des gardes a distinctement vu un intrus à l'orée du camp. L'individu marchait sur ses deux jambes et semblait tatoué de blanc sur tout son visage, et bien que de stature humaine, le garde jure que l'apparition avait des cornes ! Il a été saisi d'effroi et n'a rien fait -- lorsque leurs regards se sont croisés, il a déguerpi en courant. Que devons-nous faire si nous le revoyons ? »
+> « Un de nos chasseurs vient de revenir avec un chevreuil qu'il a abattu... mais il est venu me voir directement, car le chevreuil avait été blessé auparavant par une flèche. »
+
+Il vous tend la flèche. Le bois n'est pas droit, et l'empennage de plume semble avoir connu des jours meilleurs. Il est évident qu'il ne s'agit pas de l'œuvre d'un de vos hommes.
+
+> « Il semblerait que nous ne soyons pas seuls... que voulez-vous faire ? »

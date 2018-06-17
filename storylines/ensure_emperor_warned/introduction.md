@@ -2,7 +2,9 @@
 triggers:
     soft:
         condition:
-                g.has_informed_emperor != true
+            AND:
+                - g.tutorial_finished == true
+                - g.has_informed_emperor != true
                 # TODO: ensure this is only called at least a certain amount of turn after the introduction
         weight: 10
 on_display:
@@ -10,11 +12,11 @@ on_display:
 actions:
     "Parfait. J'ai hâte de recevoir ces renforts !":
         operations:
-            - storylines.introduction.has_informed_emperor = true
+            - g.has_informed_emperor = true
             - sl.thanks_olrik = true
     "Olrik, n'oublie pas qui dirige cette expédition... à l'avenir, évite les initiatives.":
         operations:
-            - storylines.introduction.has_informed_emperor = true
+            - g.has_informed_emperor = true
             - sl.rebuke_olrik = true
             - g.olrik_meter ||= 0
             - g.olrik_meter -= 1
