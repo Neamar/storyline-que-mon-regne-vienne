@@ -14,6 +14,6 @@ actions:
             - r.happiness -= 1
 ---
 
-> « Après l'avoir traqué, nous avons fini par retrouver sa trace. Il était en train de se laver dans une rivière, ses armes sur la berge. Conformément à vos ordres, nous l'avons empêché de sortir de l'eau jusqu'à ce que le froid fasse son office. Rendu fou par le froid, il a tenté une sortie. Je lui ai coupé la tête, que voici, afin que tous se souviennent de pourquoi nous sommes ici. »
+> « Après l'avoir traqué, nous avons fini par retrouver sa trace. Il était en train de se laver dans une rivière, ses armes sur la berge. Conformément à vos ordres, nous l'avons empêché de sortir de l'eau glaciale jusqu'à ce que le froid fasse son office. Tremblant de tous ses membres, il a tenté une sortie. Je lui ai coupé la tête, que voici, afin que tous se souviennent de pourquoi nous sommes ici. »
 
 Les hommes de l'expédition vous regardent, comme s'ils attendaient la suite des évènements.

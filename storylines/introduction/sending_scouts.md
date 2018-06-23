@@ -5,6 +5,7 @@ triggers:
             sl.has_sent_scouts == true
 on_display:
     - r.population -= 3
+    - g.has_sent_scouts = true
 actions:
     "[Aller explorer la forêt]":
         operations:

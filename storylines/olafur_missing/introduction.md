@@ -17,8 +17,6 @@ actions:
         operations:
             - r.happiness -= 5
             - sl.do_nothing = true
-            - sl.do_nothing_turn = g.current_turn
-            - sl.do_nothing_turn += 5
 ---
 
 Tandis que la troupe se réunit pour partager ensemble le petit-déjeuner, votre lieutenant Olrik note l'absence d'Olafùr.

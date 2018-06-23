@@ -13,7 +13,7 @@ actions:
 
 Tandis que vous remettez le bâillon, les coups de pelles reprennent, enfouissant le corps d'Éric sous la terre meuble.
 
-Lorsque seule sa tête dépasse, tout le camp marche autour de lui pour tasser la terre.
+Lorsque seule sa tête dépasse, tout le camp piétine autour de lui pour tasser la terre.
 
 Le regard de beaucoup est troublé par quelques larmes -- Éric était un ami proche et un bon camarade. Mais la discipline ne saurait tolérer l'inaction.
 

@@ -2,9 +2,7 @@
 triggers:
     soft:
         condition:
-            AND:
-                - sl.do_nothing == true
-                - g.current_turn >= sl.do_nothing_turn
+            sl.do_nothing == true
 on_display:
     - r.population -= 1
     - r.happiness -= 5

@@ -16,4 +16,4 @@ Vous sortez de la tente. Il pleut dehors, et la pluie vous fait rapidement émer
 
 Le campement est dans le désordre le plus complet.
 
-Devant vous, un homme sort en courant de sa tente, puis ébloui par la lueur des torches, trébuche sur un des piquets de tente et s'effondre dan un amas de tissu mouillé en hurlant. La voix du malheureux dormeur réveillé en sursaut par l'effondrement de sa tente vient se mêler au capharnaüm ambiant.
+Devant vous, un homme sort en courant de sa tente, puis ébloui par la lueur des torches, trébuche sur un des piquets de tente et s'effondre dans un amas de tissu mouillé en hurlant. La voix du malheureux dormeur réveillé en sursaut par l'effondrement de sa tente vient se mêler au capharnaüm ambiant.
