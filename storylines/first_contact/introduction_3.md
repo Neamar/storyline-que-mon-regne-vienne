@@ -2,7 +2,12 @@
 triggers:
     soft:
         condition:
-            sl.introduction_step == 3
+            # Only display this event when we've discovered the Rougeaud camp, OR we never sent any scouts during the introduction
+            AND:
+                - sl.introduction_step == 3
+                - OR:
+                    - g.rougeaud_discovered == true
+                    - g.has_sent_scouts != true
 actions:
     "Tirez à vue, pour tuer.":
         operations:
