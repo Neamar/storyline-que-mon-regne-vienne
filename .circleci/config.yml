@@ -26,7 +26,12 @@ jobs:
       - run: mkdir /tmp/story
       - run: sudo apt install graphviz
       - run: npm run compile -- /tmp/story/story.json
-      - run: npm run chart -- /tmp/story/story.json /tmp/story/chart.json /tmp/story/chart.dot
+      - run:
+          name: Generate chart
+          command: npm run chart -- /tmp/story/story.json /tmp/story/chart.json /tmp/story/chart.dot
+          environment:
+            # Generating the chart takes a lot of memory, make sure our script can access whatever it needs
+            NODE_OPTIONS="--max-old-space-size=4096"
       - run: dot -Tsvg -o /tmp/story/chart.svg /tmp/story/chart.dot
       - store_artifacts:
           path: /tmp/story
