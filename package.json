@@ -5,9 +5,9 @@
   "main": "./story.json",
   "scripts": {
     "compile": "storylines compile .",
-    "chart": "storylines chart",
-    "update-chart": "storylines compile . /tmp/story.json && NODE_OPTIONS=\"--max-old-space-size=4096\" storylines chart /tmp/story.json /tmp/data.json /tmp/data.dot && dot -Tsvg -o /tmp/chart.svg /tmp/data.dot",
-    "view-chart": "storylines compile . /tmp/story.json && NODE_OPTIONS=\"--max-old-space-size=4096\" storylines chart /tmp/story.json /tmp/data.json /tmp/data.dot && dot -Tsvg -o /tmp/chart.svg /tmp/data.dot && xdg-open /tmp/chart.svg",
+    "chart": "NODE_OPTIONS=\"--max-old-space-size=4096\" storylines chart",
+    "update-chart": "npm run compile -- /tmp/story.json && npm run chart -- /tmp/story.json /tmp/data.json /tmp/data.dot && dot -Tsvg -o /tmp/chart.svg /tmp/data.dot",
+    "view-chart": "npm run compile -- /tmp/story.json && npm run chart -- /tmp/story.json /tmp/data.json /tmp/data.dot && dot -Tsvg -o /tmp/chart.svg /tmp/data.dot && xdg-open /tmp/chart.svg",
     "local": "storylines local ."
   },
   "repository": {
