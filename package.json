@@ -22,7 +22,7 @@
   "homepage": "https://github.com/Neamar/story-que-mon-regne-vienne#readme",
   "dependencies": {},
   "devDependencies": {
-    "nodemon": "^1.17.5",
+    "nodemon": "^2.0.2",
     "storylines": "^2.1.8"
   }
 }
