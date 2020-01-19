@@ -20,7 +20,9 @@
     "url": "https://github.com/Neamar/story-que-mon-regne-vienne/issues"
   },
   "homepage": "https://github.com/Neamar/story-que-mon-regne-vienne#readme",
-  "dependencies": {},
+  "dependencies": {
+    "@types/jest": "^24.9.0"
+  },
   "devDependencies": {
     "nodemon": "^2.0.2",
     "storylines": "^2.1.8"
